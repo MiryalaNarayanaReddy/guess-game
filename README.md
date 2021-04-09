@@ -4,11 +4,13 @@
 
 run the following command in terminal
 
-```make
+```
+make
 ```
 ## To run the program
 
 use following command
 
-```./run
+```
+./run
 ```
