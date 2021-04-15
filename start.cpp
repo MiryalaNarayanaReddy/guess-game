@@ -21,10 +21,11 @@ void perform_action(char selection)
     {
     case 'P':
         play_game();
-        display_menu();
+        perform_action(display_menu());
         break;
     case 'H':
         display_highscore();
+        perform_action(display_menu());
         break;
     case 'Q':
         std::cout << "Ok!!...that's alright..\nThank you." << std::endl;
